@@ -1,1 +1,4 @@
-C programming, betty Coding Style, low level language. 
+Hello world,
+First low level language. 
+C programming,
+Betty Coding Style,
