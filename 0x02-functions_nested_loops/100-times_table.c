@@ -1,33 +1,53 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - sums nultplies of 3 or 5
+ * print_times_table - prints the times table
+ * @n: integer for which the times table will be printed
  *
- * Description: multiples between 0 and 1024
- * Return: Always(0) Success
+ * Description: prints the times table
+ *
+ * Return: void
  */
 
-int main(void)
+void print_times_table(int n)
 {
-	int start_num, end_num, total;
+	int row, column, product;
 
-	end_num = 1024;
-	total = 0;
-
-	for (start_num = 0; start_num < end_num; start_num++)
+	if (n >= 0 && n < 15)
 	{
-		if ((start_num % 3 == 0) || (start_num % 5 == 0))
+		for (row = 0; row <= n; row++)
 		{
-			total = total + start_num;
-		}
-		else
-		{
-			continue;
+			for (column = 0; column <= n; column++)
+			{
+				product = row * column;
+				if (column == 0)
+					_putchar('0');
+				else if (product < 10)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(product % 10 + '0');
+				}
+				else if (product >= 10 && product < 100)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar((product / 10) % 10 + '0');
+					_putchar(product % 10 + '0');
+				}
+				else if (product > 99 && product < 1000)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(product / 100 + '0');
+					_putchar((product / 10) % 10 + '0');
+					_putchar(product % 10 + '0');
+				}
+			}
+			_putchar('\n');
 		}
 	}
-
-	printf("%d", total);
-	printf("\n");
-
-	return (0);
 }
