@@ -6,4 +6,5 @@ C programming.
 betty style format
 re updat
 ghfke
-next update
+next updat
+next nexte
