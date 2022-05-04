@@ -1,12 +1,4 @@
+# C Programming.
+
 Hello world,
-First low level language. 
-C programming.
-
-
-betty style format
-re updat
-ghfke
-next updat
-next nexte
-hldksl
-heed
+First low level language learnt, lots of projects learning c.
