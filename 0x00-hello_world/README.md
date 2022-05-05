@@ -1,4 +1,4 @@
-C- Hello World
+#C- Hello World
 
 It is the first ever project in C. It contains 9 tasks and files.
 
@@ -16,7 +16,4 @@ File 6 contains a C program that prints exactly with proper grammar, but the out
 
 File 7 contains a C program that prints the size of various types on the computer it is compiled and run on.
 
-File 8 contains intel
-
-File 9 contains 
-
+File 8 contains a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
