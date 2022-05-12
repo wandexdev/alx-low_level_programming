@@ -1,5 +1,5 @@
-This Directory is about Arguments.
-Emphasis on argc and argv
+# This Directory is about Arguments.
+## Emphasis on argc and argv
 
 Task 0 contains a program that prints its name, followed by a new line.
 
