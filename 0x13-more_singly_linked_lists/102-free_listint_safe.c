@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_listp2 -Descp- frees a linked list
+ * free_listp2 func - frees a linked list
  * @head: head of a list.
  *
  * Return: no return.
